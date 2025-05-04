@@ -40,3 +40,15 @@ a {
     color-scheme: dark;
   }
 }
+
+ul {
+  list-style-type: none;
+  padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+main {
+  padding: 1rem;
+  align-content: center;
+  text-align: center;
+}
