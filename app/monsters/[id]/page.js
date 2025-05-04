@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+// Also, why does the assignment want getStaticProps and getStaticPaths if we're using React 19, wouldn't we want to use App Router?
+
 export async function generateStaticParams() {
     const ids = Array.from({ length: 151 }, (_, i) => ({ id: `${i + 1}` }));
     return ids;
