@@ -15,7 +15,7 @@ export default async function MonsterPage({ params }) {
     if (!res.ok) {
         return (
             <div>
-                <h1>Error loading monster #{params.id}</h1>
+                <h1>Error loading pokemon #{params.id}</h1>
             </div>
         );
     }
